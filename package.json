@@ -1,0 +1,11 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "A refactoring project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
