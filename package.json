@@ -4,8 +4,12 @@
   "description": "A refactoring project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.2.1"
+  }
 }
