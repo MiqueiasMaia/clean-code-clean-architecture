@@ -1,13 +1,13 @@
 const cpf_after = require ('./cpf_after');
 
 test("Should validate CPF A", () => {
-    const isValid = cpf_after.validate('604.777.463-62');
+    const isValid = cpf_after.validate('604.555.263-62');
     expect(isValid).toBeTruthy();
 });
 
-test("Should validate CPF B", () => {
+test("Shouldn't validate CPF B", () => {
     const isValid = cpf_after.validate('935.411.347-90');
-    expect(isValid).toBeTruthy();
+    expect(isValid).toBeFalsy();
 });
 
 test("Should validate CPF C", () => {
